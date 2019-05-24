@@ -1,33 +1,163 @@
-.App {
+* {
+  padding   : 0;
+  margin    : 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image     : url("http://www.pridemagazineng.com/wp-content/uploads/2014/07/money-exchange.jpg");
+  background-repeat    : no-repeat;
+  background-attachment: flex;
+}
+
+
+
+h1 {
+  font-family            : 'Germania One', cursive;
+  font-size              : 80px;
+  text-align             : center;
+  margin-top             : 145px;
+  background             : -webkit-linear-gradient(beige,#F71F11, rgb(1, 134, 1), darkred, darkorange);
+  background-clip        : text;
+  -webkit-text-fill-color: transparent;
+}
+
+.btn {
+  width       : 150px;
+  height      : 60px;
+  margin      : 10px;
+  border-style: outset;
+  box-shadow  : 3px 3px #040404;
+}
+
+.btn-container {
+  margin    : 0 auto;
+  width     : 350px;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.img-container {
+  height: 125px;
+  margin: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.img-container img {
+  height: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  text-align      : center;
+  background-color: #2B2929;
+  color           : #FCFCEB;
+  border-radius   : 10px;
+  padding         : 5px;
+  font-size       : 25px
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.links {
+  color: black
+}
+
+.links-li {
+  padding-top: 10px;
+}
+
+/* Job Titles */
+.game {
+  margin-left: 15px;
+}
+
+.rapper {
+  margin-left: 15px;
+}
+
+.producer {
+  margin-left: 15px;
+}
+
+.astro {
+  margin-left: 15px;
+}
+
+.police {
+  margin-left: 15px;
+}
+
+.military {
+  margin-left: 15px;
+}
+
+.firefighter {
+  margin-left: 15px;
+}
+
+.lawer {
+  margin-left: 15px;
+}
+
+.sales {
+  margin-left: 15px;
+}
+
+.secretary {
+  margin-left: 15px;
+}
+
+.relations {
+  margin-left: 15px;
+}
+
+.president {
+  margin-left: 15px;
+}
+
+.doctor {
+  margin-left: 15px;
+}
+
+.entrepreneur {
+  margin-left: 15px;
+}
+
+.spy {
+  margin-left: 15px;
+}
+
+/* Read More buttons */
+.more {
+  display: none;
+}
+
+.more2 {
+  display: none;
+}
+
+.more3 {
+  display: none;
+}
+
+.more4 {
+  display: none;
+}
+
+.more5 {
+  display: none;
+}
+
+.more6 {
+  display: none;
+}
+
+.discription {
+  display: inline;
+  margin : 0 auto;
+}
+
+.info {
+  background-color: rgba(211, 211, 211, 0.632);
+  padding         : 5px;
+}
+
+ul {
+  list-style-type: none;
 }
